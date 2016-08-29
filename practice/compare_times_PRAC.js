@@ -1,0 +1,368 @@
+const fb_list_tastemade = [ { timestamp: '2016-08-17T06:29:37+0000',
+    title: 'Banana Cream Pie Jars',
+    source: 'Facebook' },
+  { timestamp: '2016-08-17T22:00:00+0000',
+    title: 'Raspberry Upside Down Cake \n\nFull recipe: https://taste.md/2bbWCyz via  The Scran Line',
+    source: 'Facebook' },
+  { timestamp: '2016-08-18T11:00:00+0000',
+    title: 'Teriyaki Pork Onion Rings\n\nFull recipe: https://taste.md/2bfGwDU',
+    source: 'Facebook' },
+  { timestamp: '2016-08-18T22:00:00+0000',
+    title: 'Hawaiian Pulled Pork Sliders\n\nMore here: www.kikkomanusa.com/grill',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T00:00:00+0000',
+    title: 'Strawberry Ice Cream in a Bag\n\nFull recipe: http://taste.md/29P8VU6',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T05:00:00+0000',
+    title: 'Red Curry Meatball Sandwich \n\nFull recipe: https://taste.md/29W0GEk',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T10:30:00+0000',
+    title: 'Today on Tiny Kitchen...\n\nMore Tiny Kitchen on our app -> http://taste.md/2bjCoRg',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T16:00:00+0000',
+    title: 'Slow Cooker Chinese Pulled Pork  \n\nFull recipe: https://taste.md/2bBLs5a',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T19:00:00+0000',
+    title: 'Honey Cocktails 3 Ways\n \n*Recipe in the comments!',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T21:26:29+0000',
+    title: 'Chef Ming Tsai is LIVE Preparing Signature Dishes! Want to Serve These At Home? Check Out bit.ly/2bptIOw For More Info!',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T23:00:00+0000',
+    title: 'Stuffed Italian Beef Rolls (Braciola)\n\nFull recipe: https://taste.md/2asCepC',
+    source: 'Facebook' },
+  { timestamp: '2016-08-20T11:00:00+0000',
+    title: 'Stuffed Peppers 3 Ways \n\nFull recipe: https://taste.md/2b61Vwu',
+    source: 'Facebook' },
+  { timestamp: '2016-08-20T17:00:00+0000',
+    title: 'Thai Banana Egg Roti   \n\nFull recipe: https://taste.md/2bjltQW',
+    source: 'Facebook' },
+  { timestamp: '2016-08-20T23:00:00+0000',
+    title: 'This is the fastest way to peel apples.\n\nFull video: http://bit.ly/2bbEYvT via Make Sushi',
+    source: 'Facebook' },
+  { timestamp: '2016-08-21T11:00:00+0000',
+    title: 'Mosaic Sushi Squares \n\nFull recipe: https://taste.md/2blU131',
+    source: 'Facebook' },
+  { timestamp: '2016-08-21T17:00:00+0000',
+    title: '14 Ways to Transform a Potato via Food, People, Places',
+    source: 'Facebook' },
+  { timestamp: '2016-08-21T21:30:00+0000',
+    title: 'Chicken Fajita Roll-Up with Tomato Rice\n\nGet this meal to your door: http://taste.md/2bIJWkE',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T00:00:00+0000',
+    title: 'Fried Mozzarella Sandwich  \n\nFull recipe: https://taste.md/2bEX5ID',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T11:00:00+0000',
+    title: 'Oreo Peanut Butter Ice Box Cake \n\nFull recipe: https://taste.md/2btVh7C',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T16:41:27+0000',
+    title: 'Making Poké LIVE w/ Chef Dakota from Sweetfin Poké!',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T18:00:00+0000',
+    title: 'Carrot Cake with Cream Cheese Frosting \n\nFull recipe: https://taste.md/2b18FSx',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T20:00:00+0000',
+    title: 'This French girl didn\'t even have time to shower.\n\nMore Alice on our app! http://taste.md/2b9szpI',
+    source: 'Facebook' },
+  { timestamp: '2016-08-23T11:00:00+0000',
+    title: 'Nutella Stuffed Cookies \n\nFull recipe: https://taste.md/2buO2Jr',
+    source: 'Facebook' },
+  { timestamp: '2016-08-23T17:00:00+0000',
+    title: 'Cold Soba Noodles \n\nFull recipe: https://taste.md/2bx9aTz',
+    source: 'Facebook' },
+  { timestamp: '2016-08-23T23:30:00+0000',
+    title: 'Jello Fruit Punch \n\nFull recipe: https://taste.md/2blU131\nDownload the app for more recipes: http://taste.md/2b3WGCG',
+    source: 'Facebook' } ];
+
+const yt_list_tastemade = [ { timestamp: '2016-07-29T19:49:37.000Z',
+    title: 'French Wildflower Cocktail | Local Flight - St. Tropez',
+    source: 'YouTube' },
+  { timestamp: '2016-07-31T16:00:01.000Z',
+    title: 'Home Slice | All the Pizza',
+    source: 'YouTube' },
+  { timestamp: '2016-08-02T21:00:00.000Z',
+    title: 'Bacon Kimchi Pancakes | Seonkyoung',
+    source: 'YouTube' },
+  { timestamp: '2016-08-03T19:00:00.000Z',
+    title: 'Ultimate Pork Belly Steamed Buns | Marcus Meacham',
+    source: 'YouTube' },
+  { timestamp: '2016-08-04T19:00:01.000Z',
+    title: 'Rum Raisin Kit Kats in Tokyo | Tale of Kitto Katto',
+    source: 'YouTube' },
+  { timestamp: '2016-08-05T19:00:33.000Z',
+    title: 'Rose de Mai Cocktail | Local Flight - Cannes',
+    source: 'YouTube' },
+  { timestamp: '2016-08-05T23:00:00.000Z',
+    title: 'Winner Winner, Baguette Dinner | Alice in Paris',
+    source: 'YouTube' },
+  { timestamp: '2016-08-06T16:43:23.000Z',
+    title: 'Loading Up on Lobster in Portland, Maine | ALL NIGHTER',
+    source: 'YouTube' },
+  { timestamp: '2016-08-08T03:47:37.000Z',
+    title: 'Pizza Paradise | All the Pizza',
+    source: 'YouTube' },
+  { timestamp: '2016-08-08T21:00:01.000Z',
+    title: 'Chocolate Banana Mini Pies l Dini Klein',
+    source: 'YouTube' },
+  { timestamp: '2016-08-09T21:00:01.000Z',
+    title: 'For Place and For Animals | The Perennial Plate',
+    source: 'YouTube' },
+  { timestamp: '2016-08-10T19:00:04.000Z',
+    title: 'The Gobbler Strangewich',
+    source: 'YouTube' },
+  { timestamp: '2016-08-11T19:00:03.000Z',
+    title: 'Shrimp Cakes l Megan Mitchell',
+    source: 'YouTube' },
+  { timestamp: '2016-08-12T19:00:05.000Z',
+    title: 'Sea-inspired Cocktail | Local Flight - Dubrovnik',
+    source: 'YouTube' },
+  { timestamp: '2016-08-12T23:00:01.000Z',
+    title: 'Lost in a Parisian Nightmare | Alice in Paris',
+    source: 'YouTube' },
+  { timestamp: '2016-08-13T16:06:47.000Z',
+    title: 'The Oddities of Asheville | ALL NIGHTER',
+    source: 'YouTube' },
+  { timestamp: '2016-08-14T16:00:02.000Z',
+    title: 'Watermelon 5 Ways l Jen Phanomrat',
+    source: 'YouTube' },
+  { timestamp: '2016-08-15T21:00:00.000Z',
+    title: 'Pizza Pot Pie | Dini Klein',
+    source: 'YouTube' },
+  { timestamp: '2016-08-16T21:00:01.000Z',
+    title: 'Bessie White | The Perennial Plate',
+    source: 'YouTube' },
+  { timestamp: '2016-08-17T19:00:01.000Z',
+    title: 'Pork Belly Steamed Bun Strangewich',
+    source: 'YouTube' },
+  { timestamp: '2016-08-18T19:00:01.000Z',
+    title: 'The Ultimate Deli Dog | Top Dog',
+    source: 'YouTube' },
+  { timestamp: '2016-08-19T18:57:36.000Z',
+    title: 'Honey & Herbs Cocktail | Local Flight - Mykonos',
+    source: 'YouTube' },
+  { timestamp: '2016-08-19T23:00:00.000Z',
+    title: 'A Day with Her Honey | Alice in Paris',
+    source: 'YouTube' },
+  { timestamp: '2016-08-20T16:00:00.000Z',
+    title: 'Getting Turnt Up in Memphis | ALL NIGHTER',
+    source: 'YouTube' },
+  { timestamp: '2016-08-23T21:00:02.000Z',
+    title: 'Waste Not | The Perennial Plate',
+    source: 'YouTube' } ];
+
+const fb_list_buzzfeed = [ { timestamp: '2016-08-19T03:00:55+0000',
+    title: 'See The Northern Lights Before They Go Dim',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:00:00+0000',
+    title: '11 Women Confess Why They Faked Being Pregnant',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:11:14+0000',
+    title: 'Siblings Pick Surprise Tattoos For Each Other',
+    source: 'Facebook' },
+  { timestamp: '2016-08-21T02:00:00+0000',
+    title: 'Can You Name A Song Without Hearing It?',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:11:32+0000',
+    title: 'A Regular Guy Tried To Race An Olympic Swimmer',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:10:53+0000',
+    title: 'Grandmas Get Kylie Jenner Makeovers',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:11:48+0000',
+    title: 'Worst-Case Scenario: Spilling Water On Your Pants',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:14:42+0000',
+    title: 'Heartwarming Messages From Kids Of Single Parents',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T16:00:00+0000',
+    title: 'This Cat Test Will Reveal If You Are An Introvert Or Extrovert',
+    source: 'Facebook' },
+  { timestamp: '2016-08-21T16:00:00+0000',
+    title: 'The Art Of Dance',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:21:29+0000',
+    title: 'People Try Communicating Without Talking',
+    source: 'Facebook' },
+  { timestamp: '2016-08-21T17:00:05+0000',
+    title: 'Regular People Get Tricked Into Olympic High Diving',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:10:21+0000',
+    title: 'People Try Crystal Pepsi',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T00:00:49+0000',
+    title: 'Here\'s What 13 Swinger Couples Have To Say...',
+    source: 'Facebook' },
+  { timestamp: '2016-08-18T19:38:34+0000',
+    title: 'Meanwhile, in Brazil...',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T19:00:07+0000',
+    title: 'Your Body While Watching This Video',
+    source: 'Facebook' },
+  { timestamp: '2016-08-18T22:00:36+0000',
+    title: '4 Delicious Taiwanese Pastries To Share With Your Friends',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:19:04+0000',
+    title: 'Animal Lovers Get Surprised With Porcupines',
+    source: 'Facebook' },
+  { timestamp: '2016-08-18T20:18:52+0000',
+    title: 'Can You Tell Who Has More Piercings?',
+    source: 'Facebook' },
+  { timestamp: '2016-08-19T17:00:00+0000',
+    title: '7 Panera Hacks That WIll Change Your Life',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:10:35+0000',
+    title: 'Co-Workers Get Married For A Week',
+    source: 'Facebook' },
+  { timestamp: '2016-08-17T22:36:55+0000',
+    title: 'People Reveal Their Childhood Keepsakes',
+    source: 'Facebook' },
+  { timestamp: '2016-08-22T22:18:39+0000',
+    title: 'Regular People Try Hurdles For The First Time',
+    source: 'Facebook' },
+  { timestamp: '2016-08-17T22:35:59+0000',
+    title: 'Asian-Americans Get Photoshopped Onto Blockbuster Movie Posters',
+    source: 'Facebook' },
+  { timestamp: '2016-08-17T22:36:39+0000',
+    title: 'People Try Burger King\'s Whopperrito',
+    source: 'Facebook' } ];
+
+const yt_list_buzzfeed = [ { timestamp: '2016-08-18T18:30:00.000Z',
+    title: 'Can You Tell Who Has More Piercings?',
+    source: 'YouTube' },
+  { timestamp: '2016-08-22T21:00:00.000Z',
+    title: 'Fast Food Chicken Nugget Taste Test',
+    source: 'YouTube' },
+  { timestamp: '2016-08-21T21:00:01.000Z',
+    title: 'See The Northern Lights Before They Go Dim',
+    source: 'YouTube' },
+  { timestamp: '2016-08-20T14:00:00.000Z',
+    title: 'A Regular Guy Tried To Race An Olympic Swimmer',
+    source: 'YouTube' },
+  { timestamp: '2016-08-20T23:00:00.000Z',
+    title: '7 Heartwarming Messages From Kids Of Single Parents',
+    source: 'YouTube' },
+  { timestamp: '2016-08-20T01:00:01.000Z',
+    title: 'Spilling Water On Your Pants',
+    source: 'YouTube' },
+  { timestamp: '2016-08-22T19:47:32.000Z',
+    title: 'Couples Get Refreshingly Honest About How They Met // Presented by BuzzFeed & Honest Tea',
+    source: 'YouTube' },
+  { timestamp: '2016-08-19T22:00:01.000Z',
+    title: 'People Try Communicating Without Talking',
+    source: 'YouTube' },
+  { timestamp: '2016-08-20T21:00:01.000Z',
+    title: 'Can You Name A Song Without Hearing It?',
+    source: 'YouTube' },
+  { timestamp: '2016-08-21T18:00:01.000Z',
+    title: '11 Secrets Retail Workers Will Never Tell You',
+    source: 'YouTube' },
+  { timestamp: '2016-08-20T17:00:00.000Z',
+    title: 'Are You Ready For Kids? • Wine Mom',
+    source: 'YouTube' },
+  { timestamp: '2016-08-19T01:00:00.000Z',
+    title: 'People Try Taiwanese Pastries',
+    source: 'YouTube' },
+  { timestamp: '2016-08-22T17:00:00.000Z',
+    title: 'This Cat Test Will Reveal If You Are An Introvert Or Extrovert',
+    source: 'YouTube' },
+  { timestamp: '2016-08-18T21:00:00.000Z',
+    title: 'I Let Twitter Run My Night In Vegas',
+    source: 'YouTube' },
+  { timestamp: '2016-08-21T14:00:03.000Z',
+    title: 'Animal Lovers Get Surprised With Porcupines',
+    source: 'YouTube' },
+  { timestamp: '2016-08-19T17:00:01.000Z',
+    title: '7 Panera Hacks That Will Change Your Life',
+    source: 'YouTube' },
+  { timestamp: '2016-08-18T01:00:02.000Z',
+    title: 'The Truth About Women\'s Pay In Sports',
+    source: 'YouTube' },
+  { timestamp: '2016-08-17T17:00:00.000Z',
+    title: '7 Snacks Only \'90s Kids Will Recognize',
+    source: 'YouTube' },
+  { timestamp: '2016-08-17T01:00:01.000Z',
+    title: 'Asian-Americans Get Photoshopped Onto Blockbuster Movie Posters',
+    source: 'YouTube' },
+  { timestamp: '2016-08-17T21:00:01.000Z',
+    title: 'Trying To Survive 15 Hours in Times Square',
+    source: 'YouTube' },
+  { timestamp: '2016-08-16T22:00:15.000Z',
+    title: 'People Try Burger King’s Whopperrito',
+    source: 'YouTube' },
+  { timestamp: '2016-08-16T16:30:00.000Z',
+    title: 'Find Out How Many Lives You Have Lived Based On Your Birthday',
+    source: 'YouTube' },
+  { timestamp: '2016-08-16T01:00:03.000Z',
+    title: 'We Tried Climbing A Building With Suction Cups',
+    source: 'YouTube' },
+  { timestamp: '2016-08-15T22:00:01.000Z',
+    title: 'Simone Biles And Her Mom Talk About Their Relationship',
+    source: 'YouTube' },
+  { timestamp: '2016-08-15T18:00:04.000Z',
+    title: '7 Breathtaking Hikes You Should Try Before You Die',
+    source: 'YouTube' } ];
+
+function addDates(list, list_name) {
+  let dates = [];
+  list.forEach((entry)=>{
+    let x_date = entry.timestamp.split('T')[0];
+    if ((dates.findIndex((item)=>item.date == x_date)) == -1) {
+      dates.push({date: x_date, num: 1, source: list_name});
+    } else {
+      let el_i = dates.findIndex((item)=>item.date == x_date);
+      dates[el_i].num += 1;
+    }
+  });
+  return dates;
+}
+
+let all_dates = [];
+
+function combineLists(fb_list, yt_list) {
+  addAllDates(fb_list, 'facebook');
+  addAllDates(yt_list, 'youtube');
+  return all_dates;
+}
+
+function addAllDates(arr, platform) {
+  arr.forEach((entry)=>{
+    let has_date = all_dates.findIndex((item)=>item.date==entry.date) != -1;
+    if (has_date) {
+      let el_i = all_dates.findIndex((item)=>item.date == entry.date);
+      all_dates[el_i][platform] = entry;
+    } else {
+      let date_obj = {date: entry.date};
+      date_obj[platform] = entry;
+      all_dates.push(date_obj);
+    }
+  });
+}
+
+function sortByTimestamp(arr) {
+  arr.sort(function(a, b) {
+		if (a.timestamp > b.timestamp) {
+			return 1;
+		}
+		if (a.timestamp < b.timestamp) {
+			return -1;
+		}
+		return 0;
+	});
+}
+
+function combineVidLists(fb_data, yt_data) {
+  let all_data = yt_data.concat(fb_data);
+	sortByTimestamp(all_data);
+  return all_data;
+}
+
+console.log(combineVidLists(fb_list_tastemade, yt_list_tastemade));
+
+// console.log('FACEBOOK');
+// console.log(addDates(fb_list_tastemade, 'Facebook'));
+// console.log('YOUTUBE');
+// console.log(addDates(yt_list_tastemade, 'YouTube'));
+
+// let fb_dates = addDates(fb_list_tastemade, 'Facebook');
+// let yt_dates = addDates(yt_list_tastemade, 'YouTube');
+// console.log(combineLists(fb_dates, yt_dates));
