@@ -1,5 +1,5 @@
-const reqFbVids = require('./facebook/get_channelVids');
-const reqYtVids = require('./youtube/get_channelVids');
+const reqFbVids = require('./facebook/get_channelVidsALT');
+const reqYtVids = require('./youtube/get_channelVidsALT');
 const fs = require('fs');
 
 const fb_channels = {
@@ -25,9 +25,9 @@ function getFbVids(channel_id, end_file_name) {
       fb_vid_times.push(vid_obj);
     });
 
-    fs.writeFile('./data/vid_lists/facebook/' + end_file_name + 'vids.json', JSON.stringify(fb_vid_times, null, 2), function(err) {
+    fs.writeFile('./data/vid_lists/facebook/' + end_file_name + 'vids_200.json', JSON.stringify(fb_vid_times, null, 2), function(err) {
       if (err) throw err;
-      console.log('Facebook videos saved');
+      console.log(fb_vid_times.length + ' Facebook videos saved');
     });
   });
 }
@@ -46,15 +46,15 @@ function getYtVids(channel_name, end_file_name) {
       yt_vid_times.push(vid_obj);
     });
 
-    fs.writeFile('./data/vid_lists/youtube/' + end_file_name + 'vids.json', JSON.stringify(yt_vid_times, null, 2), function(err) {
+    fs.writeFile('./data/vid_lists/youtube/' + end_file_name + 'vids_200.json', JSON.stringify(yt_vid_times, null, 2), function(err) {
       if (err) throw err;
-      console.log('YouTube videos saved');
+      console.log(yt_vid_times.length + ' YouTube videos saved');
     });
   });
 }
 
-const fb_channel_id = fb_channels.tastemade;
-const yt_channel_name = yt_channels.tastemade;
+const fb_channel_id = fb_channels.buzzfeed;
+const yt_channel_name = yt_channels.buzzfeed;
 
-getFbVids(fb_channel_id, 'tastemade');
-getYtVids(yt_channel_name, 'tastemade');
+getFbVids(fb_channel_id, 'buzzfeed');
+getYtVids(yt_channel_name, 'buzzfeed');
