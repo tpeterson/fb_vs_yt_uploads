@@ -32,7 +32,7 @@ function fetchPageID(channel_name) {
 }
 
 if (!module.parent) {
-  let channel = 'tastemade';//'BuzzFeedVideo';
+  let channel = 'NowThisNews';//'tastemade';//'BuzzFeedVideo';
   fetchPageID(channel).then(function(res){
     console.log(res);
   });

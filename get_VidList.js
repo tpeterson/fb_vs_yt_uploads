@@ -4,11 +4,13 @@ const fs = require('fs');
 
 const fb_channels = {
   buzzfeed: '1318800798260799',
-  tastemade: '268804973206677'
+  tastemade: '268804973206677',
+  nowthis: '341163402640457'
 };
 const yt_channels = {
   buzzfeed: 'BuzzFeedVideo',
-  tastemade: 'tastemade'
+  tastemade: 'tastemade',
+  nowthis: 'nowthismedia'
 }
 
 function getFbVids(channel_id, end_file_name) {
@@ -53,8 +55,8 @@ function getYtVids(channel_name, end_file_name) {
   });
 }
 
-const fb_channel_id = fb_channels.buzzfeed;
+const fb_channel_id = fb_channels.nowthis;
 const yt_channel_name = yt_channels.buzzfeed;
 
-getFbVids(fb_channel_id, 'buzzfeed');
-getYtVids(yt_channel_name, 'buzzfeed');
+getFbVids(fb_channel_id, 'nowthis');
+getYtVids(yt_channel_name, 'nowthis');

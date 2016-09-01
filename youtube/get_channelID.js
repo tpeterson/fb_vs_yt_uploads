@@ -34,7 +34,7 @@ function fetchChannelID(channel_name) {
 }
 
 if (!module.parent) {
-  let channel = 'BuzzFeedVideo';
+  let channel = 'nowthismedia';
   fetchChannelID(channel).then(function(res){
     console.log(res);
   });

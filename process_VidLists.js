@@ -1,7 +1,7 @@
 const fs = require('fs');
 const processHelper = require('./processHelper');
 
-const publisher = 'buzzfeed'
+const publisher = 'nowthis'
 
 const fb_data = fs.readFileSync(`./data/vid_lists/facebook/${publisher}vids_200.json`);
 const yt_data = fs.readFileSync(`./data/vid_lists/youtube/${publisher}vids_200.json`);
