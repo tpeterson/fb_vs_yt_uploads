@@ -1,0 +1,19 @@
+{
+  "name": "fb_vs_yt_uploads",
+  "version": "1.0.0",
+  "description": "Pulling data and producing charts that plot how frequently top publishers are uploading videos to Facebook and YouTube.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpeterson/fb_vs_yt_uploads.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpeterson/fb_vs_yt_uploads/issues"
+  },
+  "homepage": "https://github.com/tpeterson/fb_vs_yt_uploads#readme"
+}
