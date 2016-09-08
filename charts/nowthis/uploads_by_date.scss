@@ -1,8 +1,5 @@
 #main_chart {
 	border: 1px solid black;
-	// @media (max-width: 800px) {
-	// 	width: 400px;
-	// }
 }
 
 #chart_info {
@@ -11,14 +8,14 @@
 }
 
 .fb_bar {
-	fill: blue;
+	fill: #3b5998;
 }
 
 .yt_bar {
-	fill: red;
+	fill: #cc181e;
 }
 
 .x_label {
 	font-family: "Verdana";
-	fill: red;
+	fill: #282829;
 }

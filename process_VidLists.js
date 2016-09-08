@@ -1,10 +1,10 @@
 const fs = require('fs');
 const processHelper = require('./processHelper');
 
-const publisher = 'nowthis'
+const publisher = 'tastemade'
 
-const fb_data = fs.readFileSync(`./data/vid_lists/facebook/${publisher}vids_200.json`);
-const yt_data = fs.readFileSync(`./data/vid_lists/youtube/${publisher}vids_200.json`);
+const fb_data = fs.readFileSync(`./data/vid_lists/facebook/${publisher}vids_1000.json`);
+const yt_data = fs.readFileSync(`./data/vid_lists/youtube/${publisher}vids_1000.json`);
 
 const fb_vids = JSON.parse(fb_data);
 const yt_vids = JSON.parse(yt_data);
@@ -22,6 +22,16 @@ console.log('Facebook:');
 console.log(fb_vids_byDate);
 console.log('YouTube:');
 console.log(yt_vids_byDate);
+
+fs.writeFile('./data/vidByDate_lists/facebook/' + publisher + 'vid_dates_1000.json', JSON.stringify(fb_vids_byDate, null, 2), function(err) {
+  if (err) throw err;
+  console.log(fb_vids_byDate.length + ' Facebook dates saved');
+});
+
+fs.writeFile('./data/vidByDate_lists/youtube/' + publisher + 'vid_dates_1000.json', JSON.stringify(yt_vids_byDate, null, 2), function(err) {
+  if (err) throw err;
+  console.log(yt_vids_byDate.length + ' YouTube dates saved');
+});
 
 // let lists_by_date = combineVidLists(fb_vids_byDate, yt_vids_byDate);
 // console.log(lists_by_date);
