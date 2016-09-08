@@ -2,7 +2,7 @@ const https = require('https');
 const url = require('url');
 
 const token = process.env.FACEBOOK_GRAPH;
-const vids_to_get = 1000;
+const vids_to_get = 800;
 let total_vids = [];
 
 function fetchPageVideos(channel_ID) {

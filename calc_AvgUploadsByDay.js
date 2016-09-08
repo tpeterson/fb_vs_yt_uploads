@@ -1,10 +1,10 @@
 const fs = require('fs');
 const processHelper = require('./processHelper');
 
-const publisher = 'tastemade'
+const publisher = 'nowthis';
 
-const fb_data = fs.readFileSync(`./data/vid_lists/facebook/${publisher}vids_1000.json`);
-const yt_data = fs.readFileSync(`./data/vid_lists/youtube/${publisher}vids_1000.json`);
+const fb_data = fs.readFileSync(`./data/vid_lists/facebook/${publisher}vids_800.json`);
+const yt_data = fs.readFileSync(`./data/vid_lists/youtube/${publisher}vids_800.json`);
 
 const fb_vids = JSON.parse(fb_data);
 const yt_vids = JSON.parse(yt_data);

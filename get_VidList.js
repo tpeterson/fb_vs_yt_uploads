@@ -27,7 +27,7 @@ function getFbVids(channel_id, end_file_name) {
       fb_vid_times.push(vid_obj);
     });
 
-    fs.writeFile('./data/vid_lists/facebook/' + end_file_name + 'vids_1000.json', JSON.stringify(fb_vid_times, null, 2), function(err) {
+    fs.writeFile('./data/vid_lists/facebook/' + end_file_name + 'vids_800.json', JSON.stringify(fb_vid_times, null, 2), function(err) {
       if (err) throw err;
       console.log(fb_vid_times.length + ' Facebook videos saved');
     });
@@ -48,15 +48,15 @@ function getYtVids(channel_name, end_file_name) {
       yt_vid_times.push(vid_obj);
     });
 
-    fs.writeFile('./data/vid_lists/youtube/' + end_file_name + 'vids_1000.json', JSON.stringify(yt_vid_times, null, 2), function(err) {
+    fs.writeFile('./data/vid_lists/youtube/' + end_file_name + 'vids_800.json', JSON.stringify(yt_vid_times, null, 2), function(err) {
       if (err) throw err;
       console.log(yt_vid_times.length + ' YouTube videos saved');
     });
   });
 }
 
-const fb_channel_id = fb_channels.tastemade;
-const yt_channel_name = yt_channels.tastemade;
+const fb_channel_id = fb_channels.nowthis;
+const yt_channel_name = yt_channels.nowthis;
 
-getFbVids(fb_channel_id, 'tastemade');
-getYtVids(yt_channel_name, 'tastemade');
+getFbVids(fb_channel_id, 'nowthis');
+getYtVids(yt_channel_name, 'nowthis');

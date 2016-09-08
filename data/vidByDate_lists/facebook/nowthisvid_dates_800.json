@@ -1,7 +1,7 @@
 [
   {
     "date": "2016-09-08",
-    "num": 2,
+    "num": 10,
     "source": "Facebook"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "date": "2016-09-02",
-    "num": 16,
+    "num": 15,
     "source": "Facebook"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "date": "2016-08-30",
-    "num": 12,
+    "num": 11,
     "source": "Facebook"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "date": "2016-08-23",
-    "num": 15,
+    "num": 14,
     "source": "Facebook"
   },
   {
@@ -251,7 +251,7 @@
   },
   {
     "date": "2016-07-20",
-    "num": 15,
+    "num": 13,
     "source": "Facebook"
   },
   {
@@ -261,7 +261,7 @@
   },
   {
     "date": "2016-07-18",
-    "num": 16,
+    "num": 15,
     "source": "Facebook"
   },
   {
@@ -286,12 +286,12 @@
   },
   {
     "date": "2016-07-13",
-    "num": 15,
+    "num": 14,
     "source": "Facebook"
   },
   {
     "date": "2016-07-12",
-    "num": 15,
+    "num": 14,
     "source": "Facebook"
   },
   {
@@ -306,92 +306,12 @@
   },
   {
     "date": "2016-07-09",
-    "num": 13,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-07-08",
-    "num": 17,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-07-07",
     "num": 8,
     "source": "Facebook"
   },
   {
-    "date": "2016-07-06",
-    "num": 13,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-07-05",
-    "num": 11,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-07-04",
-    "num": 10,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-07-03",
-    "num": 10,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-07-02",
-    "num": 11,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-07-01",
-    "num": 14,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-30",
-    "num": 14,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-29",
-    "num": 15,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-28",
-    "num": 14,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-27",
-    "num": 14,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-26",
-    "num": 10,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-25",
-    "num": 11,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-24",
-    "num": 12,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-23",
-    "num": 14,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-06-22",
-    "num": 5,
+    "date": "2016-07-08",
+    "num": 8,
     "source": "Facebook"
   }
 ]

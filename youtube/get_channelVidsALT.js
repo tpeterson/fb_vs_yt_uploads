@@ -2,7 +2,7 @@ const https = require('https');
 const url = require('url');
 
 const token = process.env.YOUTUBE;
-const vids_to_get = 1000;
+const vids_to_get = 800;
 let total_vids = [];
 
 function fetchRecentUploadsID(channel_name) {
@@ -72,7 +72,7 @@ function reqVids(address, channel, cb) {
           part: 'snippet',
           playlistId: channel,
           maxResults: 25,
-          nextPageToken: info.nextPageToken,
+          pageToken: info.nextPageToken,
           key: token
         };
 

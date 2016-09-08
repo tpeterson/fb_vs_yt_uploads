@@ -1,5 +1,10 @@
 [
   {
+    "date": "2016-09-08",
+    "num": 1,
+    "source": "Facebook"
+  },
+  {
     "date": "2016-09-07",
     "num": 18,
     "source": "Facebook"
@@ -206,7 +211,7 @@
   },
   {
     "date": "2016-07-20",
-    "num": 91,
+    "num": 31,
     "source": "Facebook"
   },
   {
@@ -261,12 +266,12 @@
   },
   {
     "date": "2016-07-09",
-    "num": 13,
+    "num": 9,
     "source": "Facebook"
   },
   {
     "date": "2016-07-08",
-    "num": 21,
+    "num": 10,
     "source": "Facebook"
   },
   {
@@ -771,7 +776,7 @@
   },
   {
     "date": "2016-03-07",
-    "num": 2,
+    "num": 1,
     "source": "Facebook"
   },
   {
@@ -812,186 +817,6 @@
   {
     "date": "2016-02-25",
     "num": 2,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-24",
-    "num": 7,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-20",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-19",
-    "num": 15,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-18",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-17",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-15",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-13",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-14",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-12",
-    "num": 3,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-16",
-    "num": 2,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-11",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-10",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-07",
-    "num": 3,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-09",
-    "num": 11,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-06",
-    "num": 2,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-05",
-    "num": 2,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-04",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-02-03",
-    "num": 8,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-31",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-30",
-    "num": 2,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-29",
-    "num": 2,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-28",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-27",
-    "num": 11,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-25",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-23",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-24",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-22",
-    "num": 3,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-21",
-    "num": 3,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-20",
-    "num": 20,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-19",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-18",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-16",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-15",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-14",
-    "num": 1,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-12",
-    "num": 2,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-01-13",
-    "num": 10,
     "source": "Facebook"
   }
 ]
