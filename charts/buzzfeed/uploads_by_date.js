@@ -1624,7 +1624,7 @@
   var xStartEnd = d3.extent(all_dates, function(d) {
     return new Date(d.date);
   });
-  var xScale = d3.time.scale().domain(xStartEnd).range([
+  var xScale = d3.time.scale().domain(xStartEnd.reverse()).range([
     10,
     4900
   ]);
