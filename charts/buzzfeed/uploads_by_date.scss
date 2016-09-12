@@ -1,8 +1,9 @@
 $fb_color: #3b5998;
 $yt_color: #cc181e;
+$axis_color: #282829;
 
-#chart_header{
-  padding: 1em 0 1em 0;
+#chart_header {
+  padding: 1em 0;
   margin: 0 auto;
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -37,24 +38,22 @@ $yt_color: #cc181e;
   }
 }
 
-#main_chart {
-	//border: 1px solid black;
-}
-
-// #chart_info {
-// 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-// 	font-size: 20px;
-// }
+#main_chart {}
 
 .fb_bar {
-	fill: $fb_color;
+  fill: $fb_color;
 }
 
 .yt_bar {
-	fill: $yt_color;
+  fill: $yt_color;
 }
 
-.x_label {
-	font-family: "Verdana";
-	fill: #282829;
+.axis_label {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: $axis_color;
+}
+
+.axis_line {
+  stroke: $axis_color;
+  stroke-width: 1;
 }

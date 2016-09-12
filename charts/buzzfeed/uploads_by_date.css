@@ -1,5 +1,5 @@
 #chart_header {
-  padding: 1em 0 1em 0;
+  padding: 1em 0;
   margin: 0 auto;
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,8 +35,12 @@
 .yt_bar {
   fill: #cc181e; }
 
-.x_label {
-  font-family: "Verdana";
+.axis_label {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   fill: #282829; }
+
+.axis_line {
+  stroke: #282829;
+  stroke-width: 1; }
 
 /*# sourceMappingURL=uploads_by_date.css.map */

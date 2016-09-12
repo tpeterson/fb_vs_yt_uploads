@@ -221,7 +221,7 @@
     return new Date(d.date);
   });
   var xScale = d3.time.scale().domain(xStartEnd.reverse()).range([
-    10,
+    25,
     1900
   ]);
   var yScale = d3.scale.linear().domain([
@@ -241,9 +241,6 @@
   }).attr('y', function(d) {
     return 450 - yScale(d.num);
   }).on('click', function(d) {
-    // d3.select('#vid_source').text('Facebook');
-    // d3.select('#vid_date').text(d.date);
-    // d3.select('#vid_num').text(d.num + ' videos');
     d3.select('#date_info').text('BuzzFeed posted ' + d.num + ' videos to Facebook on ' + d.date + '.');
   });
   d3.select('#main_chart').selectAll('rect.yt_bar').data(yt_dates).enter().append('rect').attr('class', 'yt_bar').attr('width', bar_width).attr('height', function(d) {
@@ -253,12 +250,9 @@
   }).attr('y', function(d) {
     return 450 - yScale(d.num);
   }).on('click', function(d) {
-    // d3.select('#vid_source').text('YouTube');
-    // d3.select('#vid_date').text(d.date);
-    // d3.select('#vid_num').text(d.num + ' videos');
     d3.select('#date_info').text('BuzzFeed posted ' + d.num + ' videos to YouTube on ' + d.date + '.');
   });
-  d3.select('#main_chart').selectAll('text.x_label').data(all_dates_only).enter().append('text').attr('class', 'x_label').text(function(d) {
+  d3.select('#main_chart').selectAll('text.x_label').data(all_dates_only).enter().append('text').attr('class', 'axis_label').text(function(d) {
     return d;
   }).attr('y', 475).attr('x', function(d) {
     return xScale(new Date(d));
