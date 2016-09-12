@@ -12,17 +12,20 @@ const yt_vids = JSON.parse(yt_data);
 const fb_vids_100 = processHelper.sortByProperty(fb_vids, 'timestamp').reverse().slice(0,100);
 const yt_vids_100 =  processHelper.sortByProperty(yt_vids, 'timestamp').reverse().slice(0,100);
 
-console.log('Facebook');
-console.log(fb_vids_100);
-console.log('YouTube');
-console.log(fb_vids_100);
+let fb_vids_100_byDate = processHelper.addVidsByDate(fb_vids_100, 'Facebook');
+let yt_vids_100_byDate = processHelper.addVidsByDate(yt_vids_100, 'YouTube');
 
-fs.writeFile('./data/vidByDate_lists/facebook/100_vids/' + publisher + 'vids_100.json', JSON.stringify(fb_vids_100, null, 2), function(err) {
+console.log('Facebook');
+console.log(fb_vids_100_byDate);
+console.log('YouTube');
+console.log(fb_vids_100_byDate);
+
+fs.writeFile('./data/vidByDate_lists/facebook/100_vids/' + publisher + 'vids_100.json', JSON.stringify(fb_vids_100_byDate, null, 2), function(err) {
   if (err) throw err;
-  console.log(fb_vids_100.length + ' Facebook dates saved');
+  console.log(fb_vids_100_byDate.length + ' Facebook dates saved');
 });
 
-fs.writeFile('./data/vidByDate_lists/youtube/100_vids/' + publisher + 'vids_100.json', JSON.stringify(yt_vids_100, null, 2), function(err) {
+fs.writeFile('./data/vidByDate_lists/youtube/100_vids/' + publisher + 'vids_100.json', JSON.stringify(yt_vids_100_byDate, null, 2), function(err) {
   if (err) throw err;
-  console.log(yt_vids_100.length + ' YouTube dates saved');
+  console.log(yt_vids_100_byDate.length + ' YouTube dates saved');
 });

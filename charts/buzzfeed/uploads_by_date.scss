@@ -1,18 +1,57 @@
-#main_chart {
-	border: 1px solid black;
+$fb_color: #3b5998;
+$yt_color: #cc181e;
+
+#chart_header{
+  padding: 1em 0 1em 0;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
 }
 
-#chart_info {
-	font-family: "Verdana";
-	font-size: 20px;
+#date_info {
+  padding-top: 0.5em;
+  font-size: 0.8em;
 }
+
+#fb_head {
+  color: $fb_color;
+}
+
+#yt_head {
+  color: $yt_color;
+}
+
+#chart_container {
+  border: 0.5px solid black;
+  margin: 0 auto;
+  overflow: scroll;
+  @media (min-width: 500px) and (max-width: 599px) {
+    width: 475px;
+  }
+  @media (min-width: 330px) and (max-width: 499px) {
+    width: 320px;
+  }
+  @media (max-width: 329px) {
+    width: 250px;
+  }
+}
+
+#main_chart {
+	//border: 1px solid black;
+}
+
+// #chart_info {
+// 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// 	font-size: 20px;
+// }
 
 .fb_bar {
-	fill: #3b5998;
+	fill: $fb_color;
 }
 
 .yt_bar {
-	fill: #cc181e;
+	fill: $yt_color;
 }
 
 .x_label {
