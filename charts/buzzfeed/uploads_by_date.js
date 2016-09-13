@@ -202,6 +202,8 @@
     "num": 4,
     "source": "YouTube"
   }];
+
+  // COLLECT LIST OF DATES FOR X AXIS SCALING
   var all_dates = fb_dates.concat(yt_dates);
 
   function trimDates(arr) {
@@ -216,14 +218,19 @@
     });
     return trimmed_dates_arr;
   }
+
   var all_dates_only = trimDates(all_dates);
   var xStartEnd = d3.extent(all_dates, function(d) {
     return new Date(d.date);
   });
+
+  // SET X AXIS SCALE
   var xScale = d3.time.scale().domain(xStartEnd.reverse()).range([
     25,
     1900
   ]);
+
+  // SET Y AXIS SCALE
   var yScale = d3.scale.linear().domain([
     0,
     d3.max(all_dates, function(d) {
@@ -233,7 +240,11 @@
     0,
     400
   ]);
+
+  // SET WIDTH OF BARS AND SPACING BETWEEN BARS
   var bar_width = 25;
+
+  // PLOT FACEBOOK DATES
   d3.select('#main_chart').selectAll('rect.fb_bar').data(fb_dates).enter().append('rect').attr('class', 'fb_bar').attr('width', bar_width).attr('height', function(d) {
     return yScale(d.num);
   }).attr('x', function(d, i) {
@@ -241,8 +252,10 @@
   }).attr('y', function(d) {
     return 450 - yScale(d.num);
   }).on('click', function(d) {
-    d3.select('#date_info').text('BuzzFeed posted ' + d.num + ' videos to Facebook on ' + d.date + '.');
+    d3.select('#date_info').text(d.num + ' videos posted to Facebook on ' + d.date);
   });
+
+  // PLOT YOUTUBE DATES
   d3.select('#main_chart').selectAll('rect.yt_bar').data(yt_dates).enter().append('rect').attr('class', 'yt_bar').attr('width', bar_width).attr('height', function(d) {
     return yScale(d.num);
   }).attr('x', function(d, i) {
@@ -250,8 +263,10 @@
   }).attr('y', function(d) {
     return 450 - yScale(d.num);
   }).on('click', function(d) {
-    d3.select('#date_info').text('BuzzFeed posted ' + d.num + ' videos to YouTube on ' + d.date + '.');
+    d3.select('#date_info').text(d.num + ' videos posted to YouTube on ' + d.date);
   });
+
+  // SET X AXIS ENTRY LABELS
   d3.select('#main_chart').selectAll('text.x_label').data(all_dates_only).enter().append('text').attr('class', 'axis_label').text(function(d) {
     return d;
   }).attr('y', 475).attr('x', function(d) {
@@ -259,4 +274,9 @@
   }).attr('transform', function(d) {
     return 'rotate(40 ' + xScale(new Date(d)) + ' 475)';
   });
+
+  // SET Y AXIS LABEL
+  d3.select('text#y_axis_label').text(d3.max(all_dates, function(d) {
+    return d.num;
+  }));
 }());

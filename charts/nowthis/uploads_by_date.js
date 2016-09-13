@@ -30,227 +30,7 @@
     "source": "Facebook"
   }, {
     "date": "2016-09-01",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-31",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-30",
-    "num": 11,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-29",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-28",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-27",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-26",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-25",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-24",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-23",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-22",
-    "num": 15,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-21",
-    "num": 11,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-20",
-    "num": 11,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-19",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-18",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-17",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-16",
-    "num": 16,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-15",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-14",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-13",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-12",
-    "num": 15,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-11",
-    "num": 11,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-10",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-09",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-08",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-07",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-06",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-05",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-04",
-    "num": 16,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-03",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-02",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-01",
-    "num": 10,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-31",
-    "num": 9,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-30",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-29",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-28",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-27",
-    "num": 16,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-26",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-25",
-    "num": 10,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-24",
-    "num": 11,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-23",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-22",
-    "num": 15,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-21",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-20",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-19",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-18",
-    "num": 15,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-17",
-    "num": 9,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-16",
-    "num": 15,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-15",
-    "num": 11,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-14",
-    "num": 10,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-13",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-12",
-    "num": 14,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-11",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-10",
-    "num": 9,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-09",
-    "num": 8,
-    "source": "Facebook"
-  }, {
-    "date": "2016-07-08",
-    "num": 8,
+    "num": 6,
     "source": "Facebook"
   }];
   var yt_dates = [{
@@ -290,6 +70,10 @@
     "num": 10,
     "source": "YouTube"
   }, {
+    "date": "2016-08-28",
+    "num": 2,
+    "source": "YouTube"
+  }, {
     "date": "2016-08-27",
     "num": 3,
     "source": "YouTube"
@@ -298,346 +82,12 @@
     "num": 11,
     "source": "YouTube"
   }, {
-    "date": "2016-08-28",
-    "num": 2,
-    "source": "YouTube"
-  }, {
     "date": "2016-08-25",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-24",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-23",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-22",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-19",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-18",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-17",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-16",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-15",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-12",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-13",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-11",
-    "num": 12,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-10",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-09",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-08",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-05",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-04",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-03",
-    "num": 12,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-02",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-01",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-29",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-30",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-28",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-27",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-26",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-25",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-22",
-    "num": 6,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-21",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-20",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-19",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-18",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-15",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-14",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-13",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-12",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-11",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-08",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-07",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-06",
-    "num": 12,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-05",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-04",
     "num": 4,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-03",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-02",
-    "num": 4,
-    "source": "YouTube"
-  }, {
-    "date": "2016-07-01",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-30",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-29",
-    "num": 12,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-28",
-    "num": 13,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-27",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-25",
-    "num": 2,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-24",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-23",
-    "num": 12,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-22",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-21",
-    "num": 12,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-20",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-19",
-    "num": 2,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-18",
-    "num": 5,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-17",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-16",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-15",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-14",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-13",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-11",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-10",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-09",
-    "num": 12,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-08",
-    "num": 12,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-07",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-06",
-    "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-04",
-    "num": 5,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-03",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-02",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-06-01",
-    "num": 14,
-    "source": "YouTube"
-  }, {
-    "date": "2016-05-31",
-    "num": 7,
-    "source": "YouTube"
-  }, {
-    "date": "2016-05-27",
-    "num": 7,
-    "source": "YouTube"
-  }, {
-    "date": "2016-05-26",
-    "num": 9,
-    "source": "YouTube"
-  }, {
-    "date": "2016-05-02",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2016-02-17",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2016-01-23",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2016-01-10",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2016-01-08",
-    "num": 2,
-    "source": "YouTube"
-  }, {
-    "date": "2016-01-07",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2016-01-06",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2015-11-17",
-    "num": 1,
-    "source": "YouTube"
-  }, {
-    "date": "2015-11-15",
-    "num": 2,
-    "source": "YouTube"
-  }, {
-    "date": "2015-11-11",
-    "num": 7,
     "source": "YouTube"
   }];
+
+  // COLLECT LIST OF DATES FOR X AXIS SCALING
   var all_dates = fb_dates.concat(yt_dates);
 
   function trimDates(arr) {
@@ -652,14 +102,19 @@
     });
     return trimmed_dates_arr;
   }
+
   var all_dates_only = trimDates(all_dates);
   var xStartEnd = d3.extent(all_dates, function(d) {
     return new Date(d.date);
   });
+
+  // SET X AXIS SCALE
   var xScale = d3.time.scale().domain(xStartEnd.reverse()).range([
-    10,
-    4900
+    25,
+    1900
   ]);
+
+  // SET Y AXIS SCALE
   var yScale = d3.scale.linear().domain([
     0,
     d3.max(all_dates, function(d) {
@@ -669,33 +124,43 @@
     0,
     400
   ]);
-  d3.select('#main_chart').selectAll('rect.fb_bar').data(fb_dates).enter().append('rect').attr('class', 'fb_bar').attr('width', 10).attr('height', function(d) {
+
+  // SET WIDTH OF BARS AND SPACING BETWEEN BARS
+  var bar_width = 25;
+
+  // PLOT FACEBOOK DATES
+  d3.select('#main_chart').selectAll('rect.fb_bar').data(fb_dates).enter().append('rect').attr('class', 'fb_bar').attr('width', bar_width).attr('height', function(d) {
     return yScale(d.num);
   }).attr('x', function(d, i) {
     return xScale(new Date(d.date));
   }).attr('y', function(d) {
     return 450 - yScale(d.num);
   }).on('click', function(d) {
-    d3.select('#vid_source').text('Facebook');
-    d3.select('#vid_date').text(d.date);
-    d3.select('#vid_num').text(d.num + ' videos');
+    d3.select('#date_info').text(d.num + ' videos posted to Facebook on ' + d.date);
   });
-  d3.select('#main_chart').selectAll('rect.yt_bar').data(yt_dates).enter().append('rect').attr('class', 'yt_bar').attr('width', 10).attr('height', function(d) {
+
+  // PLOT YOUTUBE DATES
+  d3.select('#main_chart').selectAll('rect.yt_bar').data(yt_dates).enter().append('rect').attr('class', 'yt_bar').attr('width', bar_width).attr('height', function(d) {
     return yScale(d.num);
   }).attr('x', function(d, i) {
-    return xScale(new Date(d.date)) + 10;
+    return xScale(new Date(d.date)) + bar_width;
   }).attr('y', function(d) {
     return 450 - yScale(d.num);
   }).on('click', function(d) {
-    d3.select('#vid_source').text('YouTube');
-    d3.select('#vid_date').text(d.date);
-    d3.select('#vid_num').text(d.num + ' videos');
+    d3.select('#date_info').text(d.num + ' videos posted to YouTube on ' + d.date);
   });
-  d3.select('#main_chart').selectAll('text.x_label').data(all_dates_only).enter().append('text').attr('class', 'x_label').text(function(d) {
+
+  // SET X AXIS ENTRY LABELS
+  d3.select('#main_chart').selectAll('text.x_label').data(all_dates_only).enter().append('text').attr('class', 'axis_label').text(function(d) {
     return d;
   }).attr('y', 475).attr('x', function(d) {
     return xScale(new Date(d));
   }).attr('transform', function(d) {
     return 'rotate(40 ' + xScale(new Date(d)) + ' 475)';
   });
+
+  // SET Y AXIS LABEL
+  d3.select('text#y_axis_label').text(d3.max(all_dates, function(d) {
+    return d.num;
+  }));
 }());

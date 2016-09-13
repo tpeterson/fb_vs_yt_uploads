@@ -1,9 +1,33 @@
-#main_chart {
-  border: 1px solid black; }
+#chart_header {
+  padding: 1em 0;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em; }
 
-#chart_info {
-  font-family: "Verdana";
-  font-size: 20px; }
+#date_info {
+  padding-top: 0.5em;
+  font-size: 0.8em; }
+
+#fb_head {
+  color: #3b5998; }
+
+#yt_head {
+  color: #cc181e; }
+
+#chart_container {
+  border: 0.5px solid black;
+  margin: 0 auto;
+  overflow: scroll; }
+  @media (min-width: 500px) and (max-width: 599px) {
+    #chart_container {
+      width: 475px; } }
+  @media (min-width: 330px) and (max-width: 499px) {
+    #chart_container {
+      width: 320px; } }
+  @media (max-width: 329px) {
+    #chart_container {
+      width: 250px; } }
 
 .fb_bar {
   fill: #3b5998; }
@@ -11,8 +35,12 @@
 .yt_bar {
   fill: #cc181e; }
 
-.x_label {
-  font-family: "Verdana";
+.axis_label {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   fill: #282829; }
+
+.axis_line {
+  stroke: #282829;
+  stroke-width: 1; }
 
 /*# sourceMappingURL=uploads_by_date.css.map */
