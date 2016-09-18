@@ -432,8 +432,10 @@
   // SET WIDTH OF BARS AND SPACING BETWEEN BARS
   var bar_width = 25;
 
+  var bar_area = d3.select('#main_chart').append('g').attr('id', 'bar_area');
+
   // PLOT FACEBOOK DATES
-  d3.select('#main_chart').selectAll('rect.fb_bar').data(fb_dates).enter().append('rect').attr('class', 'fb_bar').attr('width', bar_width).attr('height', function(d) {
+  bar_area.selectAll('rect.fb_bar').data(fb_dates).enter().append('rect').attr('class', 'fb_bar').attr('width', bar_width).attr('height', function(d) {
     return yScale(d.num);
   }).attr('x', function(d, i) {
     return xScale(new Date(d.date));
@@ -444,7 +446,7 @@
   });
 
   // PLOT YOUTUBE DATES
-  d3.select('#main_chart').selectAll('rect.yt_bar').data(yt_dates).enter().append('rect').attr('class', 'yt_bar').attr('width', bar_width).attr('height', function(d) {
+  bar_area.selectAll('rect.yt_bar').data(yt_dates).enter().append('rect').attr('class', 'yt_bar').attr('width', bar_width).attr('height', function(d) {
     return yScale(d.num);
   }).attr('x', function(d, i) {
     return xScale(new Date(d.date)) + bar_width;
@@ -455,7 +457,7 @@
   });
 
   // SET X AXIS ENTRY LABELS
-  d3.select('#main_chart').selectAll('text.x_label').data(all_dates_only).enter().append('text').attr('class', 'axis_label').text(function(d) {
+  bar_area.selectAll('text.x_label').data(all_dates_only).enter().append('text').attr('class', 'axis_label').text(function(d) {
     return d;
   }).attr('y', 475).attr('x', function(d) {
     return xScale(new Date(d));

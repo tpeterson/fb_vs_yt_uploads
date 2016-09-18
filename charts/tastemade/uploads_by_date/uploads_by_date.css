@@ -9,10 +9,10 @@
   padding-top: 0.5em;
   font-size: 0.8em; }
 
-#fb_head {
+.fb_head {
   color: #3b5998; }
 
-#yt_head {
+.yt_head {
   color: #cc181e; }
 
 #chart_container {
@@ -42,5 +42,12 @@
 .axis_line {
   stroke: #282829;
   stroke-width: 1; }
+
+#bar_area {
+  animation: 1.8s cubic-bezier(0.5, 0.8, 0.5, 1.75) teaseBars; }
+
+@keyframes teaseBars {
+  50% {
+    transform: translate(-200px); } }
 
 /*# sourceMappingURL=uploads_by_date.css.map */

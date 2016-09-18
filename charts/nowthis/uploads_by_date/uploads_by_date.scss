@@ -15,11 +15,11 @@ $axis_color: #282829;
   font-size: 0.8em;
 }
 
-#fb_head {
+.fb_head {
   color: $fb_color;
 }
 
-#yt_head {
+.yt_head {
   color: $yt_color;
 }
 
@@ -56,4 +56,14 @@ $axis_color: #282829;
 .axis_line {
   stroke: $axis_color;
   stroke-width: 1;
+}
+
+#bar_area {
+  animation: 1.8s cubic-bezier(.5, .8, .5, 1.75) teaseBars;
+}
+
+@keyframes teaseBars {
+  50% {
+    transform: translate(-200px);
+  }
 }
