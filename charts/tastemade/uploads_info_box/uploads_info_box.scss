@@ -47,15 +47,40 @@
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  line-height: 100px;
 }
 
 .box_title {
   visibility: visible;
+  font-size: 1.5em;
+  animation: 0.5s ease 0.5s 2 shakeText;
+}
+
+@keyframes shakeText {
+  33% {transform: rotate(-0.5deg);}
+  67% {transform: rotate(0.5deg);}
 }
 
 .box_stat {
   visibility: hidden;
+  font-size: 1.5em;
+}
+
+.fb_stat {
+  color: rgb(59,89,152);
+}
+
+.yt_stat {
+  color: rgb(204,24,30);
+}
+
+.highlightInfo {
+  background: #ffffff;
+  animation: 0.75s ease-in revealInfo;
+}
+
+@keyframes revealInfo {
+  50% {
+    font-size: 2em;
+  }
 }

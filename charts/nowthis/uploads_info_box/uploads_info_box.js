@@ -13,9 +13,11 @@
 
     if (el_children[1].style.visibility !== 'visible') {
       el_children[0].style.visibility = 'hidden';
+      this.classList.add('highlightInfo');
       el_children[1].style.visibility = 'visible';
     } else {
       el_children[1].style.visibility = 'hidden';
+      this.classList.remove('highlightInfo');
       el_children[0].style.visibility = 'visible';
     }
   }
