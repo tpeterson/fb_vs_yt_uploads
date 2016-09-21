@@ -1,16 +1,44 @@
 'use strict';
 (function() {
   var fb_dates = [{
-    "date": "2016-09-08",
+    "date": "2016-09-20",
+    "num": 14,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-19",
+    "num": 2,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-18",
     "num": 1,
     "source": "Facebook"
   }, {
+    "date": "2016-09-16",
+    "num": 5,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-15",
+    "num": 7,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-14",
+    "num": 14,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-12",
+    "num": 14,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-09",
+    "num": 19,
+    "source": "Facebook"
+  }, {
     "date": "2016-09-07",
-    "num": 18,
+    "num": 13,
     "source": "Facebook"
   }, {
     "date": "2016-09-06",
-    "num": 3,
+    "num": 2,
     "source": "Facebook"
   }, {
     "date": "2016-09-02",
@@ -22,68 +50,60 @@
     "source": "Facebook"
   }, {
     "date": "2016-08-31",
-    "num": 7,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-30",
-    "num": 1,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-29",
-    "num": 12,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-28",
     "num": 2,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-27",
-    "num": 2,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-26",
-    "num": 4,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-25",
-    "num": 5,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-24",
-    "num": 8,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-23",
-    "num": 3,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-22",
-    "num": 11,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-21",
-    "num": 3,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-19",
-    "num": 4,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-18",
-    "num": 4,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-17",
-    "num": 4,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-16",
-    "num": 1,
     "source": "Facebook"
   }];
   var yt_dates = [{
-    "date": "2016-09-08",
+    "date": "2016-09-21",
+    "num": 1,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-20",
+    "num": 5,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-19",
     "num": 2,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-18",
+    "num": 3,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-17",
+    "num": 4,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-16",
+    "num": 3,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-15",
+    "num": 4,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-14",
+    "num": 3,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-13",
+    "num": 4,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-11",
+    "num": 3,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-10",
+    "num": 4,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-09",
+    "num": 4,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-08",
+    "num": 5,
     "source": "YouTube"
   }, {
     "date": "2016-09-07",
@@ -152,54 +172,6 @@
   }, {
     "date": "2016-08-22",
     "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-21",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-20",
-    "num": 5,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-19",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-18",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-17",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-16",
-    "num": 4,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-15",
-    "num": 4,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-14",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-13",
-    "num": 5,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-12",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-11",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-10",
-    "num": 4,
     "source": "YouTube"
   }];
 
