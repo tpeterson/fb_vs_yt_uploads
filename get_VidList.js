@@ -55,8 +55,10 @@ function getYtVids(channel_name, end_file_name) {
   });
 }
 
-const fb_channel_id = fb_channels.nowthis;
-const yt_channel_name = yt_channels.nowthis;
+const pub_to_check = 'tastemade';
 
-getFbVids(fb_channel_id, 'nowthis');
-getYtVids(yt_channel_name, 'nowthis');
+const fb_channel_id = fb_channels[pub_to_check];
+const yt_channel_name = yt_channels[pub_to_check];
+
+getFbVids(fb_channel_id, pub_to_check);
+getYtVids(yt_channel_name, pub_to_check);

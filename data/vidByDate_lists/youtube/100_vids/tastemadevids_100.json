@@ -1,7 +1,67 @@
 [
   {
-    "date": "2016-09-08",
+    "date": "2016-09-20",
     "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-19",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-18",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-17",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-16",
+    "num": 2,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-15",
+    "num": 2,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-14",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-13",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-12",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-11",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-10",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-09",
+    "num": 2,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-08",
+    "num": 2,
     "source": "YouTube"
   },
   {
@@ -297,56 +357,6 @@
   {
     "date": "2016-07-05",
     "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-07-04",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-07-03",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-07-01",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-30",
-    "num": 4,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-29",
-    "num": 2,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-27",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-26",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-25",
-    "num": 2,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-24",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-23",
-    "num": 2,
     "source": "YouTube"
   }
 ]

@@ -1,7 +1,67 @@
 [
   {
-    "date": "2016-09-08",
+    "date": "2016-09-21",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-20",
+    "num": 6,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-19",
+    "num": 6,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-17",
+    "num": 3,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-16",
+    "num": 8,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-15",
     "num": 5,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-14",
+    "num": 9,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-13",
+    "num": 11,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-12",
+    "num": 10,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-11",
+    "num": 1,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-10",
+    "num": 2,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-09",
+    "num": 10,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-08",
+    "num": 11,
     "source": "YouTube"
   },
   {
@@ -392,91 +452,6 @@
   {
     "date": "2016-06-06",
     "num": 11,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-04",
-    "num": 5,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-03",
-    "num": 9,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-02",
-    "num": 9,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-06-01",
-    "num": 14,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-05-31",
-    "num": 7,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-05-27",
-    "num": 7,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-05-26",
-    "num": 9,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-05-02",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-02-17",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-01-23",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-01-10",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-01-08",
-    "num": 2,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-01-07",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-01-06",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2015-11-17",
-    "num": 1,
-    "source": "YouTube"
-  },
-  {
-    "date": "2015-11-15",
-    "num": 2,
-    "source": "YouTube"
-  },
-  {
-    "date": "2015-11-11",
-    "num": 7,
     "source": "YouTube"
   }
 ]

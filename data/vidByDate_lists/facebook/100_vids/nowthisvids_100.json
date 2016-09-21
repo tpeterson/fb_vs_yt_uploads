@@ -1,42 +1,47 @@
 [
   {
-    "date": "2016-09-08",
-    "num": 10,
+    "date": "2016-09-21",
+    "num": 1,
     "source": "Facebook"
   },
   {
-    "date": "2016-09-07",
+    "date": "2016-09-20",
     "num": 16,
     "source": "Facebook"
   },
   {
-    "date": "2016-09-06",
-    "num": 14,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-09-05",
-    "num": 12,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-09-04",
+    "date": "2016-09-19",
     "num": 13,
     "source": "Facebook"
   },
   {
-    "date": "2016-09-03",
-    "num": 14,
+    "date": "2016-09-18",
+    "num": 11,
     "source": "Facebook"
   },
   {
-    "date": "2016-09-02",
+    "date": "2016-09-17",
+    "num": 13,
+    "source": "Facebook"
+  },
+  {
+    "date": "2016-09-16",
+    "num": 16,
+    "source": "Facebook"
+  },
+  {
+    "date": "2016-09-15",
     "num": 15,
     "source": "Facebook"
   },
   {
-    "date": "2016-09-01",
-    "num": 6,
+    "date": "2016-09-14",
+    "num": 13,
+    "source": "Facebook"
+  },
+  {
+    "date": "2016-09-13",
+    "num": 2,
     "source": "Facebook"
   }
 ]
