@@ -1,7 +1,19 @@
 #container {
   margin: 0 auto;
+  font-size: 30px;
   padding: 1em;
   border: 1px solid black;
+  @media (min-width: 500px) and (max-width: 599px) {
+    font-size: 25px;
+  }
+
+  @media (min-width: 330px) and (max-width: 499px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 329px) {
+    font-size: 16px;
+  }
 }
 
 #header {
@@ -23,14 +35,14 @@
   flex-direction: column;
   //flex-basis: 100px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
+  //font-size: 1.2em;
   color: #ffffff;
 }
 
 .box_content {
   flex: 1;
   flex-basis: 100px;
-  height: 100px;
+  height: 150px;
   position: relative;
   margin: 1px;
 }
@@ -47,12 +59,13 @@
   position: absolute;
   width: 100%;
   text-align: center;
-  line-height: 100px;
+  padding-top: 0.5em;
+  //line-height: 100px;
 }
 
 .box_title {
   visibility: visible;
-  font-size: 1.5em;
+  font-size: 1em;
   animation: 0.5s ease 0.5s 2 shakeText;
 }
 
@@ -63,7 +76,7 @@
 
 .box_stat {
   visibility: hidden;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .fb_stat {
@@ -81,6 +94,6 @@
 
 @keyframes revealInfo {
   50% {
-    font-size: 2em;
+    font-size: 1.1em;
   }
 }
