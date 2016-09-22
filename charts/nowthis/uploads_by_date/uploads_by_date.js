@@ -134,7 +134,7 @@
     })
   ]).range([
     0,
-    400
+    275
   ]);
 
   // SET WIDTH OF BARS AND SPACING BETWEEN BARS
@@ -148,7 +148,7 @@
   }).attr('x', function(d, i) {
     return xScale(new Date(d.date));
   }).attr('y', function(d) {
-    return 450 - yScale(d.num);
+    return 300 - yScale(d.num);
   }).on('click', function(d) {
     d3.select('#date_info').text(d.num + ' videos posted to Facebook on ' + d.date);
   });
@@ -159,7 +159,7 @@
   }).attr('x', function(d, i) {
     return xScale(new Date(d.date)) + bar_width;
   }).attr('y', function(d) {
-    return 450 - yScale(d.num);
+    return 300 - yScale(d.num);
   }).on('click', function(d) {
     d3.select('#date_info').text(d.num + ' videos posted to YouTube on ' + d.date);
   });
@@ -167,10 +167,10 @@
   // SET X AXIS ENTRY LABELS
   bar_area.selectAll('text.x_label').data(all_dates_only).enter().append('text').attr('class', 'axis_label').text(function(d) {
     return d;
-  }).attr('y', 475).attr('x', function(d) {
+  }).attr('y', 325).attr('x', function(d) {
     return xScale(new Date(d));
   }).attr('transform', function(d) {
-    return 'rotate(40 ' + xScale(new Date(d)) + ' 475)';
+    return 'rotate(40 ' + xScale(new Date(d)) + ' 325)';
   });
 
   // SET Y AXIS LABEL
