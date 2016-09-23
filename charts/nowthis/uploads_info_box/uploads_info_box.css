@@ -1,8 +1,7 @@
 #container {
   margin: 0 auto;
   font-size: 30px;
-  padding: 0.2em;
-  border: 1px solid black; }
+  padding: 0.2em; }
   @media (min-width: 500px) and (max-width: 599px) {
     #container {
       font-size: 25px; } }

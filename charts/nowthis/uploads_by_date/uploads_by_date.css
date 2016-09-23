@@ -1,12 +1,12 @@
 #chart_header {
-  padding: 1em 0;
+  padding: 0.2em;
   margin: 0 auto;
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em; }
 
 #date_info {
-  padding-top: 0.5em;
+  padding-top: 0.2em;
   font-size: 0.8em; }
 
 .fb_head {
