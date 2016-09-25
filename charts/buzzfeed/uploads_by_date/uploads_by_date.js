@@ -1,12 +1,28 @@
 'use strict';
 (function() {
   var fb_dates = [{
-    "date": "2016-09-20",
+    "date": "2016-09-25",
+    "num": 2,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-24",
+    "num": 6,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-23",
     "num": 14,
     "source": "Facebook"
   }, {
+    "date": "2016-09-21",
+    "num": 6,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-20",
+    "num": 9,
+    "source": "Facebook"
+  }, {
     "date": "2016-09-19",
-    "num": 2,
+    "num": 1,
     "source": "Facebook"
   }, {
     "date": "2016-09-18",
@@ -14,11 +30,11 @@
     "source": "Facebook"
   }, {
     "date": "2016-09-16",
-    "num": 5,
+    "num": 1,
     "source": "Facebook"
   }, {
     "date": "2016-09-15",
-    "num": 7,
+    "num": 6,
     "source": "Facebook"
   }, {
     "date": "2016-09-14",
@@ -34,28 +50,28 @@
     "source": "Facebook"
   }, {
     "date": "2016-09-07",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-09-06",
-    "num": 2,
-    "source": "Facebook"
-  }, {
-    "date": "2016-09-02",
-    "num": 5,
-    "source": "Facebook"
-  }, {
-    "date": "2016-09-01",
-    "num": 2,
-    "source": "Facebook"
-  }, {
-    "date": "2016-08-31",
-    "num": 2,
+    "num": 7,
     "source": "Facebook"
   }];
   var yt_dates = [{
+    "date": "2016-09-25",
+    "num": 2,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-24",
+    "num": 5,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-23",
+    "num": 2,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-22",
+    "num": 2,
+    "source": "YouTube"
+  }, {
     "date": "2016-09-21",
-    "num": 1,
+    "num": 4,
     "source": "YouTube"
   }, {
     "date": "2016-09-20",
@@ -155,23 +171,7 @@
     "source": "YouTube"
   }, {
     "date": "2016-08-26",
-    "num": 4,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-25",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-24",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-23",
-    "num": 3,
-    "source": "YouTube"
-  }, {
-    "date": "2016-08-22",
-    "num": 3,
+    "num": 2,
     "source": "YouTube"
   }];
 

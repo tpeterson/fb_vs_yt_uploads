@@ -1,45 +1,49 @@
 'use strict';
 (function() {
   var fb_dates = [{
+    "date": "2016-09-25",
+    "num": 8,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-24",
+    "num": 13,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-23",
+    "num": 13,
+    "source": "Facebook"
+  }, {
+    "date": "2016-09-22",
+    "num": 16,
+    "source": "Facebook"
+  }, {
     "date": "2016-09-21",
-    "num": 1,
+    "num": 16,
     "source": "Facebook"
   }, {
     "date": "2016-09-20",
-    "num": 16,
-    "source": "Facebook"
-  }, {
-    "date": "2016-09-19",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-09-18",
-    "num": 11,
-    "source": "Facebook"
-  }, {
-    "date": "2016-09-17",
-    "num": 13,
-    "source": "Facebook"
-  }, {
-    "date": "2016-09-16",
-    "num": 16,
-    "source": "Facebook"
-  }, {
-    "date": "2016-09-15",
     "num": 15,
     "source": "Facebook"
   }, {
-    "date": "2016-09-14",
-    "num": 13,
+    "date": "2016-09-19",
+    "num": 12,
     "source": "Facebook"
   }, {
-    "date": "2016-09-13",
-    "num": 2,
+    "date": "2016-09-18",
+    "num": 7,
     "source": "Facebook"
   }];
   var yt_dates = [{
+    "date": "2016-09-23",
+    "num": 6,
+    "source": "YouTube"
+  }, {
+    "date": "2016-09-22",
+    "num": 6,
+    "source": "YouTube"
+  }, {
     "date": "2016-09-21",
-    "num": 1,
+    "num": 6,
     "source": "YouTube"
   }, {
     "date": "2016-09-20",
@@ -88,14 +92,6 @@
   }, {
     "date": "2016-09-08",
     "num": 11,
-    "source": "YouTube"
-  }, {
-    "date": "2016-09-07",
-    "num": 10,
-    "source": "YouTube"
-  }, {
-    "date": "2016-09-06",
-    "num": 7,
     "source": "YouTube"
   }];
 
