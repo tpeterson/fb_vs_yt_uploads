@@ -479,7 +479,7 @@
   // SET X AXIS SCALE
   var xScale = d3.time.scale().domain(xStartEnd.reverse()).range([
     25,
-    3900
+    5900
   ]);
 
   // SET Y AXIS SCALE
