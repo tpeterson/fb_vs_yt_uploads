@@ -1,7 +1,27 @@
 [
   {
+    "date": "2016-09-25",
+    "num": 2,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-24",
+    "num": 5,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-23",
+    "num": 2,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-22",
+    "num": 2,
+    "source": "YouTube"
+  },
+  {
     "date": "2016-09-21",
-    "num": 1,
+    "num": 4,
     "source": "YouTube"
   },
   {
@@ -126,27 +146,7 @@
   },
   {
     "date": "2016-08-26",
-    "num": 4,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-08-25",
-    "num": 3,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-08-24",
-    "num": 3,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-08-23",
-    "num": 3,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-08-22",
-    "num": 3,
+    "num": 2,
     "source": "YouTube"
   }
 ]

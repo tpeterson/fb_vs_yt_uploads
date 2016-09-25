@@ -1,7 +1,17 @@
 [
   {
+    "date": "2016-09-23",
+    "num": 6,
+    "source": "YouTube"
+  },
+  {
+    "date": "2016-09-22",
+    "num": 6,
+    "source": "YouTube"
+  },
+  {
     "date": "2016-09-21",
-    "num": 1,
+    "num": 6,
     "source": "YouTube"
   },
   {
@@ -62,16 +72,6 @@
   {
     "date": "2016-09-08",
     "num": 11,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-09-07",
-    "num": 10,
-    "source": "YouTube"
-  },
-  {
-    "date": "2016-09-06",
-    "num": 7,
     "source": "YouTube"
   }
 ]

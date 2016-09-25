@@ -1,7 +1,27 @@
 [
   {
-    "date": "2016-09-21",
+    "date": "2016-09-25",
+    "num": 3,
+    "source": "Facebook"
+  },
+  {
+    "date": "2016-09-24",
+    "num": 8,
+    "source": "Facebook"
+  },
+  {
+    "date": "2016-09-23",
     "num": 4,
+    "source": "Facebook"
+  },
+  {
+    "date": "2016-09-22",
+    "num": 6,
+    "source": "Facebook"
+  },
+  {
+    "date": "2016-09-21",
+    "num": 7,
     "source": "Facebook"
   },
   {
@@ -61,17 +81,7 @@
   },
   {
     "date": "2016-09-09",
-    "num": 43,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-09-08",
-    "num": 3,
-    "source": "Facebook"
-  },
-  {
-    "date": "2016-09-07",
-    "num": 4,
+    "num": 26,
     "source": "Facebook"
   }
 ]
